@@ -1,0 +1,13 @@
+bind: 0
+forward: 1 - 10 (to 15)
+backward: 15 - 25 (to 30)
+up: 30 - 40 (to 45)
+down: 45 - 55 (to 60)
+left: 60 - 70 (to 75)
+right: 75 - 85 (to 90)
+idle: 90 - 110
+tocombat: 110 - 116
+attack1: 116 - 130
+attack2: 130 - 145
+attack3: 145 - 160
+attack4: 160 - 175

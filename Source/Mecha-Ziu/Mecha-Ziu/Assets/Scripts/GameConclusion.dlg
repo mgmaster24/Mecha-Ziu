@@ -1,0 +1,41 @@
+10
+./Assets/Audio/Dialogue/DLG_Mecha_RecievingTransmission.ogg;
+2
+   Mecha-Ziu: "Wodan, we're receiving a; 
+   transmission from the Admiral.";
+./Assets/Audio/Dialogue/DLG_Woden_LetHimThroughZiu.ogg;
+1
+   Wodan: "Let him through, Ziu.";
+./Assets/Audio/Dialogue/DLG_Mecha_Done.ogg;
+1
+   Mecha-Ziu: "Done.";
+./Assets/Audio/Dialogue/DLG_Admiral_Congratulations.ogg;
+3
+   Admiral: "Congratulations, Raido. You;
+   defeated General Garuda and severely; 
+   hampered the Paladins of Radiance.";
+./Assets/Audio/Dialogue/DLG_Woden_DoesThisMean.ogg;
+3
+   Wodan: "Does this mean you've grown up and;
+   are going to accept my way of doing things,;
+   Admiral?";
+./Assets/Audio/Dialogue/DLG_Admiral_ISuppose.ogg;
+2
+   Admiral: "Well...I suppose you can go back;
+   to solitude if that's what you're asking.";
+./Assets/Audio/Dialogue/DLG_Woden_WasntAskingAnything.ogg;
+3
+   Wodan: "I wasn't asking anything. I was ;
+   going to do that anyway, after i finished;
+   what was started here. Goodbye, Admiral.";
+./Assets/Audio/Dialogue/DLG_Woden_SetACourse.ogg;
+2
+   Wodan: "Ziu, set a course for the PoR home;
+   planet.";
+./Assets/Audio/Dialogue/DLG_Mecha_CourseSet.ogg;
+2
+   Mecha-Ziu: "Course set. But why are we going;
+   there, Wodan?";
+./Assets/Audio/Dialogue/DLG_Woden_OnlyTheBeginning.ogg;
+1
+   Wodan: "Because, this is only the beginning...";

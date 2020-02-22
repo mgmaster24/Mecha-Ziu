@@ -1,0 +1,13 @@
+3
+./Assets/Audio/Dialogue/DLG_Mecha_BeAdvised.ogg;
+3
+   Mecha-Ziu: "Wodan, be advised that you only;
+   have ninety seconds to destroy the ship;
+   before it enters Earth's atmosphere.";
+./Assets/Audio/Dialogue/DLG_Woden_CanIGetaCountdown.ogg;
+1
+   Wodan: "Can I get a countdown, Ziu?";
+./Assets/Audio/Dialogue/DLG_Mecha_Re-Entry.ogg;
+2
+   Mecha-Ziu: "Certainly, Wodan. Ninety seconds
+   until re-entry.";

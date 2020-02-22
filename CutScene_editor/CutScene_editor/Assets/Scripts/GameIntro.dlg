@@ -1,0 +1,23 @@
+7
+./Assets/Audio/Dialogue/DLG_Woden_SystemCheck.ogg;
+1
+Systems check Mecha-Ziu;
+./Assets/Audio/Dialogue/DLG_Mecha_Vitals.ogg;
+2
+Vitals... ;
+Armor 6000, health 9001, vitals 100%;
+./Assets/Audio/Dialogue/DLG_Mecha_TargetingSystems.ogg;
+1
+Targeting systems active;
+./Assets/Audio/Dialogue/DLG_Mecha_Missles.ogg;
+1
+Missles equiped;
+./Assets/Audio/Dialogue/DLG_Mecha_EnemyDetection.ogg;
+1
+Enemy detection initiated;
+./Assets/Audio/Dialogue/DLG_Mecha_CommOnline2.ogg;
+1
+Communications online... Welcome back Wodan;
+./Assets/Audio/Dialogue/DLG_Woden_GoForARide.ogg;
+1
+Thank you Ziu, lets go for a ride;

@@ -1,0 +1,42 @@
+6
+./Assets/Audio/Dialogue/DLGTraining.ogg;
+3
+Welcome to the controls refresher program. You may;
+skip any of these messages at any time by pressing;
+the F2 key.;
+./Assets/Audio/Dialogue/DLGCameraTraining.ogg;
+5
+To turn the camera, move the cursor towards;
+the edges of the screen. If you move the cursor;
+all the way to the edge it will stay there and;
+keep turning the camera until you move it back;
+towards the center.;
+./Assets/Audio/Dialogue/DLGECTraining.ogg;
+5
+To fire the energy cannon, click the left mouse;
+button. You can also launch a powerful beam of energy by;
+holding the left mouse button down until the meter;
+on the right hand side of Mecha-Ziu fills all the;
+way up. The charged shot fires when you let go.;
+./Assets/Audio/Dialogue/DLGHTTraining.ogg;
+5
+To fire the head turret, press and hold the left;
+and right mouse buttons simultaneously. The turrets';
+bullets fill the crosshair which expands as you;
+hold the buttons down, lowering your accuracy. The;
+crosshair returns to normal when you stop firing.;
+./Assets/Audio/Dialogue/DLGMissileTraining.ogg;
+5
+You can lock your missiles onto up to 10 enemies;
+by holding down the right mouse button and moving the;
+cursor over the enemies. The missiles fire when you;
+let go of the button. You always fire ten missiles.;
+They get distributed between the locked on targets.;
+./Assets/Audio/Dialogue/DLGMeleeTraining.ogg;
+6
+When you get close to an enemy the cross-hair;
+will turn orange to indicate that you're in melee;
+range. Once you're within range, you may use the;
+left mouse button to perform a melee attack instead;
+of firing the energy cannon. All other weapons will;
+work as normal;

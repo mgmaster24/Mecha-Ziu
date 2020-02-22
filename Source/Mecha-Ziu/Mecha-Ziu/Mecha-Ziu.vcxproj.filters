@@ -1,0 +1,919 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Timers">
+      <UniqueIdentifier>{c40f1600-5b47-4747-b912-afbc15704b5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{e85db864-8181-462a-ae35-fc07bfde9c95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects">
+      <UniqueIdentifier>{aee2e713-5cbb-46a7-8db3-9e00a22d5288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Player">
+      <UniqueIdentifier>{890c6441-c4cd-43bd-801b-f35ff2fcf4db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Bullets">
+      <UniqueIdentifier>{58e207ae-76e2-4125-b6db-d931dadfe166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Bullets\Bullet Types">
+      <UniqueIdentifier>{711c4eac-2534-488a-8afe-4139b580bdb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Enemies">
+      <UniqueIdentifier>{410af401-078d-42cb-be9d-636f33dc7063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Power Ups">
+      <UniqueIdentifier>{e2d8183b-1817-46b3-95ac-493ddbdbf54a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Static Objects">
+      <UniqueIdentifier>{b8a7c0d7-681e-474b-a99f-8f412d1dcfc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Bosses">
+      <UniqueIdentifier>{2f24f124-1565-4aa3-b2cd-2b3a2e92e224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Melee">
+      <UniqueIdentifier>{df5dfb10-c9b6-4771-a8a5-04f69c6adc8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{241bcb24-eab0-41dd-bbd1-a165a420420e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game State Machine">
+      <UniqueIdentifier>{e794c78e-7192-4184-bd08-eaa8bf7729ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{71ab8cfb-4d5e-4194-bd61-dfd941a80b06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Behaviors">
+      <UniqueIdentifier>{aae3666c-c93f-4190-841a-262a8114c04f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Tactics">
+      <UniqueIdentifier>{3e1fe4ba-d878-4cfd-becf-1bd9771cb4f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{3357667e-c9ba-4dbb-adbe-ae0a37796105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{2c26fe8f-b39a-49f3-a418-e833b771e32a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Models">
+      <UniqueIdentifier>{14a34567-d449-458d-a149-c93165589a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures">
+      <UniqueIdentifier>{a2d21cdd-ea92-4613-aeef-3e69ec0da386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Audio">
+      <UniqueIdentifier>{fa1bb52c-840c-48e0-aede-ddd0398a4443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\FX">
+      <UniqueIdentifier>{27cf0932-b420-46e2-a3c4-696afbba969d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Scripts">
+      <UniqueIdentifier>{dd81dd9f-f297-49df-b7de-487f83607cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Particles">
+      <UniqueIdentifier>{8cd94467-4883-4220-b987-ee65d0466fcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{2187985e-ba7d-4b6d-9114-c0ec94060904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles">
+      <UniqueIdentifier>{3939933b-db77-4d05-a3ac-f800b2297054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting">
+      <UniqueIdentifier>{8c2e0c68-1e72-42a0-bd47-f59d7e2d4d77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting\Pack">
+      <UniqueIdentifier>{9a38410d-7bf9-4733-88f6-dd2adad77af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting\Tiny XML">
+      <UniqueIdentifier>{759c47c0-125a-4f47-8456-9bc5f71795be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface">
+      <UniqueIdentifier>{b2c01bc3-2b5e-42eb-914a-fdface52a7f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Menu">
+      <UniqueIdentifier>{f423b40b-b419-47ac-8c7e-9939850abbec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\HUD">
+      <UniqueIdentifier>{c00d071f-4921-4378-b6ea-cd981d1df450}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Timers\FrameCounter.cpp">
+      <Filter>Timers</Filter>
+    </ClCompile>
+    <ClCompile Include="Timers\Limiter.cpp">
+      <Filter>Timers</Filter>
+    </ClCompile>
+    <ClCompile Include="Timers\Timer.cpp">
+      <Filter>Timers</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\Animation.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\CutScene.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Debris.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Factory.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\GameObject.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\ObjectManager.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Player\CombatText.cpp">
+      <Filter>Game Objects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Player\Player.cpp">
+      <Filter>Game Objects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Bullets\Bullet.cpp">
+      <Filter>Game Objects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Bullets\BulletManager.cpp">
+      <Filter>Game Objects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Bullets\WarTurtleWeapons.cpp">
+      <Filter>Game Objects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Bullets\Weapons.cpp">
+      <Filter>Game Objects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Bullets\Bullet Types\BulletChairCannon.cpp">
+      <Filter>Game Objects\Bullets\Bullet Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Bullets\Bullet Types\BulletCharged.cpp">
+      <Filter>Game Objects\Bullets\Bullet Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Bullets\Bullet Types\BulletHeadTurret.cpp">
+      <Filter>Game Objects\Bullets\Bullet Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Bullets\Bullet Types\BulletMine.cpp">
+      <Filter>Game Objects\Bullets\Bullet Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Bullets\Bullet Types\BulletMissile.cpp">
+      <Filter>Game Objects\Bullets\Bullet Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Bullets\Bullet Types\BulletRegular.cpp">
+      <Filter>Game Objects\Bullets\Bullet Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Bullets\Bullet Types\BulletThreeBarrel.cpp">
+      <Filter>Game Objects\Bullets\Bullet Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Bullets\Bullet Types\EnemyBullet.cpp">
+      <Filter>Game Objects\Bullets\Bullet Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Bullets\Bullet Types\EnemyMissile.cpp">
+      <Filter>Game Objects\Bullets\Bullet Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Enemies\Enemy.cpp">
+      <Filter>Game Objects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Power Ups\PowerUp.cpp">
+      <Filter>Game Objects\Power Ups</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Static Objects\StaticEarth.cpp">
+      <Filter>Game Objects\Static Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Static Objects\StaticMoon.cpp">
+      <Filter>Game Objects\Static Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Static Objects\StaticObject.cpp">
+      <Filter>Game Objects\Static Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Static Objects\StaticSun.cpp">
+      <Filter>Game Objects\Static Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Bosses\Talbot.cpp">
+      <Filter>Game Objects\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Bosses\WarTurtle.cpp">
+      <Filter>Game Objects\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Melee\ComboController.cpp">
+      <Filter>Game Objects\Melee</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Objects\Melee\Melee.cpp">
+      <Filter>Game Objects\Melee</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\BloomShader.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\FullScreenQuad.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\NoiseShader.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\RenderEngine.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Game State Machine\CutSceneState.cpp">
+      <Filter>Game State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game State Machine\Level1State.cpp">
+      <Filter>Game State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game State Machine\Level2State.cpp">
+      <Filter>Game State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game State Machine\Level3State.cpp">
+      <Filter>Game State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game State Machine\MenuState.cpp">
+      <Filter>Game State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game State Machine\PlayState.cpp">
+      <Filter>Game State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game State Machine\SplashScreenState.cpp">
+      <Filter>Game State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game State Machine\TestGameState.cpp">
+      <Filter>Game State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game State Machine\TutorialState.cpp">
+      <Filter>Game State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AIAgent.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AIAgentBase.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AILeader.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AIManager.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\TalbotAIAgent.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\WarturtleAIAgent.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Behaviors\EnemyMove.cpp">
+      <Filter>AI\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Behaviors\MeleeEnemy.cpp">
+      <Filter>AI\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Behaviors\RangeEnemy.cpp">
+      <Filter>AI\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Behaviors\RMEnemy.cpp">
+      <Filter>AI\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Behaviors\TalbotBehavior.cpp">
+      <Filter>AI\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Behaviors\WarTurtleBehavior.cpp">
+      <Filter>AI\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Tactics\Formation.cpp">
+      <Filter>AI\Tactics</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Tactics\Tactic.cpp">
+      <Filter>AI\Tactics</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Tactics\TacticHead.cpp">
+      <Filter>AI\Tactics</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\Dialogue.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\FMOD_wrap.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\AABB.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\Frustum.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\LevelPartition.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\Sphere.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Particles\ParticleSystem.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripting\IPack.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripting\ScriptSystem.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripting\SLua.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripting\Pack\SAnimPak.cpp">
+      <Filter>Scripting\Pack</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripting\Pack\SObjectMan.cpp">
+      <Filter>Scripting\Pack</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripting\Pack\SParticlePak.cpp">
+      <Filter>Scripting\Pack</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripting\Pack\SRenderMan.cpp">
+      <Filter>Scripting\Pack</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripting\tinystr.cpp">
+      <Filter>Scripting\Tiny XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripting\tinyxml.cpp">
+      <Filter>Scripting\Tiny XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripting\tinyxmlerror.cpp">
+      <Filter>Scripting\Tiny XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripting\tinyxmlparser.cpp">
+      <Filter>Scripting\Tiny XML</Filter>
+    </ClCompile>
+    <ClCompile Include="User Interface\Menus\DeathState.cpp">
+      <Filter>User Interface\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="User Interface\Menus\HighScoreEntry.cpp">
+      <Filter>User Interface\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="User Interface\Menus\Pause.cpp">
+      <Filter>User Interface\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="User Interface\Menus\WinState.cpp">
+      <Filter>User Interface\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="User Interface\HUD\Hud.cpp">
+      <Filter>User Interface\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="User Interface\HUD\Radar.cpp">
+      <Filter>User Interface\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CLogger.cpp" />
+    <ClCompile Include="DirectInput.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="WinWrap.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Timers\FrameCounter.h">
+      <Filter>Timers</Filter>
+    </ClInclude>
+    <ClInclude Include="Timers\Limiter.h">
+      <Filter>Timers</Filter>
+    </ClInclude>
+    <ClInclude Include="Timers\Timer.h">
+      <Filter>Timers</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\Animation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\CutScene.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Debris.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Factory.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\GameObject.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\ObjectManager.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Player\CombatText.h">
+      <Filter>Game Objects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Player\Player.h">
+      <Filter>Game Objects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Bullets\Bullet.h">
+      <Filter>Game Objects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Bullets\BulletManager.h">
+      <Filter>Game Objects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Bullets\WarTurtleWeapons.h">
+      <Filter>Game Objects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Bullets\Weapons.h">
+      <Filter>Game Objects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Bullets\Bullet Types\BulletChairCannon.h">
+      <Filter>Game Objects\Bullets\Bullet Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Bullets\Bullet Types\BulletCharged.h">
+      <Filter>Game Objects\Bullets\Bullet Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Bullets\Bullet Types\BulletHeadTurret.h">
+      <Filter>Game Objects\Bullets\Bullet Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Bullets\Bullet Types\BulletMine.h">
+      <Filter>Game Objects\Bullets\Bullet Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Bullets\Bullet Types\BulletMissile.h">
+      <Filter>Game Objects\Bullets\Bullet Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Bullets\Bullet Types\BulletRegular.h">
+      <Filter>Game Objects\Bullets\Bullet Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Bullets\Bullet Types\BulletThreeBarrel.h">
+      <Filter>Game Objects\Bullets\Bullet Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Bullets\Bullet Types\EnemyBullet.h">
+      <Filter>Game Objects\Bullets\Bullet Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Bullets\Bullet Types\EnemyMissile.h">
+      <Filter>Game Objects\Bullets\Bullet Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Enemies\Enemy.h">
+      <Filter>Game Objects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Power Ups\PowerUp.h">
+      <Filter>Game Objects\Power Ups</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Static Objects\StaticEarth.h">
+      <Filter>Game Objects\Static Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Static Objects\StaticMoon.h">
+      <Filter>Game Objects\Static Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Static Objects\StaticObject.h">
+      <Filter>Game Objects\Static Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Static Objects\StaticSun.h">
+      <Filter>Game Objects\Static Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Bosses\Talbot.h">
+      <Filter>Game Objects\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Bosses\WarTurtle.h">
+      <Filter>Game Objects\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Melee\ComboController.h">
+      <Filter>Game Objects\Melee</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Objects\Melee\Melee.h">
+      <Filter>Game Objects\Melee</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\BloomShader.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\FullScreenQuad.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Model.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\NoiseShader.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\RenderEngine.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Rendering.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Game State Machine\CutSceneState.h">
+      <Filter>Game State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game State Machine\GameState.h">
+      <Filter>Game State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game State Machine\Level1State.h">
+      <Filter>Game State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game State Machine\Level2State.h">
+      <Filter>Game State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game State Machine\Level3State.h">
+      <Filter>Game State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game State Machine\LevelState.h">
+      <Filter>Game State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game State Machine\MenuState.h">
+      <Filter>Game State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game State Machine\PlayState.h">
+      <Filter>Game State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game State Machine\SplashScreenState.h">
+      <Filter>Game State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game State Machine\TestGameState.h">
+      <Filter>Game State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game State Machine\TutorialState.h">
+      <Filter>Game State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AIAgent.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AIAgentBase.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AILeader.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AIManager.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AIMessage.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\NodeWalker.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\TalbotAIAgent.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\WarturtleAIAgent.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Behaviors\BehaviorBase.h">
+      <Filter>AI\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Behaviors\EnemyMove.h">
+      <Filter>AI\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Behaviors\IBehavior.h">
+      <Filter>AI\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Behaviors\MeleeEnemy.h">
+      <Filter>AI\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Behaviors\RangeEnemy.h">
+      <Filter>AI\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Behaviors\RMEnemy.h">
+      <Filter>AI\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Behaviors\TalbotBehavior.h">
+      <Filter>AI\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Behaviors\WarTurtleBehavior.h">
+      <Filter>AI\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Tactics\Formation.h">
+      <Filter>AI\Tactics</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Tactics\Tactic.h">
+      <Filter>AI\Tactics</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Tactics\TacticHead.h">
+      <Filter>AI\Tactics</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\Dialogue.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\FMOD_wrap.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\AABB.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\BoundingVolume.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\Frustum.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\LevelPartition.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\Sphere.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Particles\ParticleSystem.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripting\CScriptFuncPtr.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripting\IPack.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripting\LuaHeader.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripting\ScriptSystem.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripting\SLua.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripting\Pack\SAnimPak.h">
+      <Filter>Scripting\Pack</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripting\Pack\SEnemyPak.h">
+      <Filter>Scripting\Pack</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripting\Pack\sobjectman.h">
+      <Filter>Scripting\Pack</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripting\Pack\SParticlePak.h">
+      <Filter>Scripting\Pack</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripting\Pack\SRenderMan.h">
+      <Filter>Scripting\Pack</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripting\tinystr.h">
+      <Filter>Scripting\Tiny XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripting\tinyxml.h">
+      <Filter>Scripting\Tiny XML</Filter>
+    </ClInclude>
+    <ClInclude Include="User Interface\Menus\DeathState.h">
+      <Filter>User Interface\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="User Interface\Menus\HighScoreEntry.h">
+      <Filter>User Interface\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="User Interface\Menus\Pause.h">
+      <Filter>User Interface\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="User Interface\Menus\WinState.h">
+      <Filter>User Interface\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="User Interface\HUD\Hud.h">
+      <Filter>User Interface\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="User Interface\HUD\Radar.h">
+      <Filter>User Interface\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CArray.h" />
+    <ClInclude Include="CLogger.h" />
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="DirectInput.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="WinWrap.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Textures\Back.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Controls.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Credits.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Cursor.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\DialogueBase.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\exit.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Gamma.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\HighScores.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\LevelSelect.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MechaButton.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MechaButtonSelectedA.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MechaButtonUnselectedA.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MechaButtonUnselectedB.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MechaButtonUnselectedC.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MechaButtonUnselectedD.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MechaButtonUnselectedE.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MenuBase.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MockMenuBase.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MockMenuBase1.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MockMenuBase10.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MockMenuBase11.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MockMenuBase12.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MockMenuBase13.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MockMenuBase14.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MockMenuBase15.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MockMenuBase16.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MockMenuBase17.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MockMenuBase18.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MockMenuBase19.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MockMenuBase2.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MockMenuBase20.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MockMenuBase21.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MockMenuBase22.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MockMenuBase3.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MockMenuBase4.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MockMenuBase5.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MockMenuBase6.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MockMenuBase7.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MockMenuBase8.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MockMenuBase9.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MockPause.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\MusicVolume.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\newgame.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Options.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Quit.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\redbar.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Restart.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\resume.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\score.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\Slider.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\SliderRail.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\SoundVolume.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\stars_background.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\time.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\VoiceVolume.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\Audio\TempMenuTrack.mp3">
+      <Filter>Assets\Audio</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Assets\FX\bloom.fx">
+      <Filter>Assets\FX</Filter>
+    </FxCompile>
+    <FxCompile Include="Assets\FX\noise.fx">
+      <Filter>Assets\FX</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Scripts\SH_AI.lua">
+      <Filter>Assets\Scripts</Filter>
+    </None>
+    <None Include="Assets\Scripts\SH_Enemy.lua">
+      <Filter>Assets\Scripts</Filter>
+    </None>
+    <None Include="Assets\Scripts\SH_Formation.lua">
+      <Filter>Assets\Scripts</Filter>
+    </None>
+    <None Include="Assets\Scripts\SH_Level1.lua">
+      <Filter>Assets\Scripts</Filter>
+    </None>
+    <None Include="Assets\Scripts\SH_Level2.lua">
+      <Filter>Assets\Scripts</Filter>
+    </None>
+    <None Include="Assets\Scripts\SH_Level3.lua">
+      <Filter>Assets\Scripts</Filter>
+    </None>
+    <None Include="Assets\Scripts\SH_LModel.lua">
+      <Filter>Assets\Scripts</Filter>
+    </None>
+    <None Include="Assets\Scripts\SH_Player.lua">
+      <Filter>Assets\Scripts</Filter>
+    </None>
+    <None Include="Assets\Scripts\SH_Poc.lua">
+      <Filter>Assets\Scripts</Filter>
+    </None>
+    <None Include="Assets\Scripts\SH_Procs.lua">
+      <Filter>Assets\Scripts</Filter>
+    </None>
+    <None Include="Assets\Scripts\SH_Squad.lua">
+      <Filter>Assets\Scripts</Filter>
+    </None>
+    <None Include="Assets\Scripts\SH_Talbot.lua">
+      <Filter>Assets\Scripts</Filter>
+    </None>
+    <None Include="Assets\Scripts\SH_Tutorial.lua">
+      <Filter>Assets\Scripts</Filter>
+    </None>
+    <None Include="Assets\Particles\SH_Bullet.lua">
+      <Filter>Assets\Particles</Filter>
+    </None>
+    <None Include="Assets\Particles\SH_Charge.lua">
+      <Filter>Assets\Particles</Filter>
+    </None>
+    <None Include="Assets\Particles\SH_EnemyBullet.lua">
+      <Filter>Assets\Particles</Filter>
+    </None>
+    <None Include="Assets\Particles\SH_Explosion2.lua">
+      <Filter>Assets\Particles</Filter>
+    </None>
+    <None Include="Assets\Particles\SH_Hit.lua">
+      <Filter>Assets\Particles</Filter>
+    </None>
+    <None Include="Assets\Particles\SH_Mine.lua">
+      <Filter>Assets\Particles</Filter>
+    </None>
+    <None Include="Assets\Particles\SH_PlayerHit.lua">
+      <Filter>Assets\Particles</Filter>
+    </None>
+    <None Include="Assets\Particles\SH_PlayerThruster.lua">
+      <Filter>Assets\Particles</Filter>
+    </None>
+    <None Include="Assets\Particles\SH_Shield.lua">
+      <Filter>Assets\Particles</Filter>
+    </None>
+    <None Include="Assets\Particles\SH_Turret.lua">
+      <Filter>Assets\Particles</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Mecha-Ziu.rc" />
+  </ItemGroup>
+</Project>

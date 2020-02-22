@@ -1,0 +1,22 @@
+4
+./Assets/Audio/Dialogue/DLG_Detecting.ogg;
+4
+   Mecha-Ziu: “Wodan, I’m detecting a change;
+   in The War Turtle’s movement. It appears to;
+   have noticed your presence. It would be wise;
+   to prepare for battle.” ;
+./Assets/Audio/Dialogue/DLG_Suggestions.ogg;
+1
+   Wodan: “Any suggestions, Ziu?”;
+./Assets/Audio/Dialogue/DLG_Cripple.ogg;
+5
+   Mecha-Ziu: “Crippling its firepower would give;
+   us the advantage. Be aware of the large;
+   cannon on its back and the mines it will;
+   surround itself with. They will lock-on to;
+   your position if you get too close.”;
+./Assets/Audio/Dialogue/DLG_GarudaKnow.ogg;
+3
+   Wodan: “It’s time to let Garuda know that;
+   he won’t be ravaging my planet while I’m;
+   around.”; 

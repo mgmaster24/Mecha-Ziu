@@ -1,0 +1,20 @@
+4
+./Assets/Audio/Dialogue/DLG_Woden_ThatShouldTakeCareOfThat.ogg;
+2
+   Wodan: "That should take care of that.;
+   Ziu, check for survivors.";
+./Assets/Audio/Dialogue/DLG_Mecha_ScanningNow.ogg;
+3
+   Mecha-Ziu: "Scanning now...Wodan, I've;
+   detected a small squadron of Acerlen.;
+   Intercepting now.";
+./Assets/Audio/Dialogue/DLG_Garuda_PurifyYourSoul.ogg;
+2
+   Garuda: "Wodan Raido, I will purify your;
+   soul...through superior fire power.";
+./Assets/Audio/Dialogue/DLG_Woden_GarudaStopPreaching.ogg;
+4
+   Wodan: "Garuda, you need to stop preaching;
+   and see the light from my cannon. It will;
+   obliterate your reign of tyranny in the;
+   galaxy!";

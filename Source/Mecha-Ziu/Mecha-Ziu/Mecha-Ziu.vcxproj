@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A668E231-D52A-4469-A9CA-C6602E558AB3}</ProjectGuid>
+    <RootNamespace>MechaZiu</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Program Files\Visual Leak Detector\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;D3D_DEBUG_INFO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3d9.lib;d3dx9d.lib;dxguid.lib;dxerr9.lib;dinput8.lib;fmodexL_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files\Visual Leak Detector\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;dinput8.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AI\AIAgent.cpp" />
+    <ClCompile Include="AI\AIAgentBase.cpp" />
+    <ClCompile Include="AI\AILeader.cpp" />
+    <ClCompile Include="AI\AIManager.cpp" />
+    <ClCompile Include="AI\Behaviors\EnemyMove.cpp" />
+    <ClCompile Include="AI\Behaviors\MeleeEnemy.cpp" />
+    <ClCompile Include="AI\Behaviors\RangeEnemy.cpp" />
+    <ClCompile Include="AI\Behaviors\RMEnemy.cpp" />
+    <ClCompile Include="AI\Behaviors\TalbotBehavior.cpp" />
+    <ClCompile Include="AI\Behaviors\WarTurtleBehavior.cpp" />
+    <ClCompile Include="AI\Tactics\Formation.cpp" />
+    <ClCompile Include="AI\Tactics\Tactic.cpp" />
+    <ClCompile Include="AI\Tactics\TacticHead.cpp" />
+    <ClCompile Include="AI\TalbotAIAgent.cpp" />
+    <ClCompile Include="AI\WarturtleAIAgent.cpp" />
+    <ClCompile Include="Animation\Animation.cpp" />
+    <ClCompile Include="Animation\CutScene.cpp" />
+    <ClCompile Include="Audio\Dialogue.cpp" />
+    <ClCompile Include="Audio\FMOD_wrap.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CLogger.cpp" />
+    <ClCompile Include="Collision\AABB.cpp" />
+    <ClCompile Include="Collision\Frustum.cpp" />
+    <ClCompile Include="Collision\LevelPartition.cpp" />
+    <ClCompile Include="Collision\Sphere.cpp" />
+    <ClCompile Include="DirectInput.cpp" />
+    <ClCompile Include="Game Objects\Bosses\Talbot.cpp" />
+    <ClCompile Include="Game Objects\Bosses\WarTurtle.cpp" />
+    <ClCompile Include="Game Objects\Bullets\Bullet Types\BulletChairCannon.cpp" />
+    <ClCompile Include="Game Objects\Bullets\Bullet Types\BulletCharged.cpp" />
+    <ClCompile Include="Game Objects\Bullets\Bullet Types\BulletHeadTurret.cpp" />
+    <ClCompile Include="Game Objects\Bullets\Bullet Types\BulletMine.cpp" />
+    <ClCompile Include="Game Objects\Bullets\Bullet Types\BulletMissile.cpp" />
+    <ClCompile Include="Game Objects\Bullets\Bullet Types\BulletRegular.cpp" />
+    <ClCompile Include="Game Objects\Bullets\Bullet Types\BulletThreeBarrel.cpp" />
+    <ClCompile Include="Game Objects\Bullets\Bullet Types\EnemyBullet.cpp" />
+    <ClCompile Include="Game Objects\Bullets\Bullet Types\EnemyMissile.cpp" />
+    <ClCompile Include="Game Objects\Bullets\Bullet.cpp" />
+    <ClCompile Include="Game Objects\Bullets\BulletManager.cpp" />
+    <ClCompile Include="Game Objects\Bullets\WarTurtleWeapons.cpp" />
+    <ClCompile Include="Game Objects\Bullets\Weapons.cpp" />
+    <ClCompile Include="Game Objects\Debris.cpp" />
+    <ClCompile Include="Game Objects\Enemies\Enemy.cpp" />
+    <ClCompile Include="Game Objects\Factory.cpp" />
+    <ClCompile Include="Game Objects\GameObject.cpp" />
+    <ClCompile Include="Game Objects\Melee\ComboController.cpp" />
+    <ClCompile Include="Game Objects\Melee\Melee.cpp" />
+    <ClCompile Include="Game Objects\ObjectManager.cpp" />
+    <ClCompile Include="Game Objects\Player\CombatText.cpp" />
+    <ClCompile Include="Game Objects\Player\Player.cpp" />
+    <ClCompile Include="Game Objects\Power Ups\PowerUp.cpp" />
+    <ClCompile Include="Game Objects\Static Objects\StaticEarth.cpp" />
+    <ClCompile Include="Game Objects\Static Objects\StaticMoon.cpp" />
+    <ClCompile Include="Game Objects\Static Objects\StaticObject.cpp" />
+    <ClCompile Include="Game Objects\Static Objects\StaticSun.cpp" />
+    <ClCompile Include="Game State Machine\CutSceneState.cpp" />
+    <ClCompile Include="Game State Machine\Level1State.cpp" />
+    <ClCompile Include="Game State Machine\Level2State.cpp" />
+    <ClCompile Include="Game State Machine\Level3State.cpp" />
+    <ClCompile Include="Game State Machine\MenuState.cpp" />
+    <ClCompile Include="Game State Machine\PlayState.cpp" />
+    <ClCompile Include="Game State Machine\SplashScreenState.cpp" />
+    <ClCompile Include="Game State Machine\TestGameState.cpp" />
+    <ClCompile Include="Game State Machine\TutorialState.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Particles\ParticleSystem.cpp" />
+    <ClCompile Include="Rendering\BloomShader.cpp" />
+    <ClCompile Include="Rendering\FullScreenQuad.cpp" />
+    <ClCompile Include="Rendering\NoiseShader.cpp" />
+    <ClCompile Include="Rendering\RenderEngine.cpp" />
+    <ClCompile Include="Scripting\IPack.cpp" />
+    <ClCompile Include="Scripting\Pack\SAnimPak.cpp" />
+    <ClCompile Include="Scripting\Pack\SObjectMan.cpp" />
+    <ClCompile Include="Scripting\Pack\SParticlePak.cpp" />
+    <ClCompile Include="Scripting\Pack\SRenderMan.cpp" />
+    <ClCompile Include="Scripting\ScriptSystem.cpp" />
+    <ClCompile Include="Scripting\SLua.cpp" />
+    <ClCompile Include="Scripting\tinystr.cpp" />
+    <ClCompile Include="Scripting\tinyxml.cpp" />
+    <ClCompile Include="Scripting\tinyxmlerror.cpp" />
+    <ClCompile Include="Scripting\tinyxmlparser.cpp" />
+    <ClCompile Include="Timers\FrameCounter.cpp" />
+    <ClCompile Include="Timers\Limiter.cpp" />
+    <ClCompile Include="Timers\Timer.cpp" />
+    <ClCompile Include="User Interface\HUD\Hud.cpp" />
+    <ClCompile Include="User Interface\HUD\Radar.cpp" />
+    <ClCompile Include="User Interface\Menus\DeathState.cpp" />
+    <ClCompile Include="User Interface\Menus\HighScoreEntry.cpp" />
+    <ClCompile Include="User Interface\Menus\Pause.cpp" />
+    <ClCompile Include="User Interface\Menus\WinState.cpp" />
+    <ClCompile Include="WinWrap.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AI\AIAgent.h" />
+    <ClInclude Include="AI\AIAgentBase.h" />
+    <ClInclude Include="AI\AILeader.h" />
+    <ClInclude Include="AI\AIManager.h" />
+    <ClInclude Include="AI\AIMessage.h" />
+    <ClInclude Include="AI\Behaviors\BehaviorBase.h" />
+    <ClInclude Include="AI\Behaviors\EnemyMove.h" />
+    <ClInclude Include="AI\Behaviors\IBehavior.h" />
+    <ClInclude Include="AI\Behaviors\MeleeEnemy.h" />
+    <ClInclude Include="AI\Behaviors\RangeEnemy.h" />
+    <ClInclude Include="AI\Behaviors\RMEnemy.h" />
+    <ClInclude Include="AI\Behaviors\TalbotBehavior.h" />
+    <ClInclude Include="AI\Behaviors\WarTurtleBehavior.h" />
+    <ClInclude Include="AI\NodeWalker.h" />
+    <ClInclude Include="AI\Tactics\Formation.h" />
+    <ClInclude Include="AI\Tactics\Tactic.h" />
+    <ClInclude Include="AI\Tactics\TacticHead.h" />
+    <ClInclude Include="AI\TalbotAIAgent.h" />
+    <ClInclude Include="AI\WarturtleAIAgent.h" />
+    <ClInclude Include="Animation\Animation.h" />
+    <ClInclude Include="Animation\CutScene.h" />
+    <ClInclude Include="Audio\Dialogue.h" />
+    <ClInclude Include="Audio\FMOD_wrap.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CArray.h" />
+    <ClInclude Include="CLogger.h" />
+    <ClInclude Include="Collision\AABB.h" />
+    <ClInclude Include="Collision\BoundingVolume.h" />
+    <ClInclude Include="Collision\Frustum.h" />
+    <ClInclude Include="Collision\LevelPartition.h" />
+    <ClInclude Include="Collision\Sphere.h" />
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="DirectInput.h" />
+    <ClInclude Include="Game Objects\Bosses\Talbot.h" />
+    <ClInclude Include="Game Objects\Bosses\WarTurtle.h" />
+    <ClInclude Include="Game Objects\Bullets\Bullet Types\BulletChairCannon.h" />
+    <ClInclude Include="Game Objects\Bullets\Bullet Types\BulletCharged.h" />
+    <ClInclude Include="Game Objects\Bullets\Bullet Types\BulletHeadTurret.h" />
+    <ClInclude Include="Game Objects\Bullets\Bullet Types\BulletMine.h" />
+    <ClInclude Include="Game Objects\Bullets\Bullet Types\BulletMissile.h" />
+    <ClInclude Include="Game Objects\Bullets\Bullet Types\BulletRegular.h" />
+    <ClInclude Include="Game Objects\Bullets\Bullet Types\BulletThreeBarrel.h" />
+    <ClInclude Include="Game Objects\Bullets\Bullet Types\EnemyBullet.h" />
+    <ClInclude Include="Game Objects\Bullets\Bullet Types\EnemyMissile.h" />
+    <ClInclude Include="Game Objects\Bullets\Bullet.h" />
+    <ClInclude Include="Game Objects\Bullets\BulletManager.h" />
+    <ClInclude Include="Game Objects\Bullets\WarTurtleWeapons.h" />
+    <ClInclude Include="Game Objects\Bullets\Weapons.h" />
+    <ClInclude Include="Game Objects\Debris.h" />
+    <ClInclude Include="Game Objects\Enemies\Enemy.h" />
+    <ClInclude Include="Game Objects\Factory.h" />
+    <ClInclude Include="Game Objects\GameObject.h" />
+    <ClInclude Include="Game Objects\Melee\ComboController.h" />
+    <ClInclude Include="Game Objects\Melee\Melee.h" />
+    <ClInclude Include="Game Objects\ObjectManager.h" />
+    <ClInclude Include="Game Objects\Player\CombatText.h" />
+    <ClInclude Include="Game Objects\Player\Player.h" />
+    <ClInclude Include="Game Objects\Power Ups\PowerUp.h" />
+    <ClInclude Include="Game Objects\Static Objects\StaticEarth.h" />
+    <ClInclude Include="Game Objects\Static Objects\StaticMoon.h" />
+    <ClInclude Include="Game Objects\Static Objects\StaticObject.h" />
+    <ClInclude Include="Game Objects\Static Objects\StaticSun.h" />
+    <ClInclude Include="Game State Machine\CutSceneState.h" />
+    <ClInclude Include="Game State Machine\GameState.h" />
+    <ClInclude Include="Game State Machine\Level1State.h" />
+    <ClInclude Include="Game State Machine\Level2State.h" />
+    <ClInclude Include="Game State Machine\Level3State.h" />
+    <ClInclude Include="Game State Machine\LevelState.h" />
+    <ClInclude Include="Game State Machine\MenuState.h" />
+    <ClInclude Include="Game State Machine\PlayState.h" />
+    <ClInclude Include="Game State Machine\SplashScreenState.h" />
+    <ClInclude Include="Game State Machine\TestGameState.h" />
+    <ClInclude Include="Game State Machine\TutorialState.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Particles\ParticleSystem.h" />
+    <ClInclude Include="Rendering\BloomShader.h" />
+    <ClInclude Include="Rendering\FullScreenQuad.h" />
+    <ClInclude Include="Rendering\Model.h" />
+    <ClInclude Include="Rendering\NoiseShader.h" />
+    <ClInclude Include="Rendering\RenderEngine.h" />
+    <ClInclude Include="Rendering\Rendering.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Scripting\CScriptFuncPtr.h" />
+    <ClInclude Include="Scripting\IPack.h" />
+    <ClInclude Include="Scripting\LuaHeader.h" />
+    <ClInclude Include="Scripting\Pack\SAnimPak.h" />
+    <ClInclude Include="Scripting\Pack\SEnemyPak.h" />
+    <ClInclude Include="Scripting\Pack\sobjectman.h" />
+    <ClInclude Include="Scripting\Pack\SParticlePak.h" />
+    <ClInclude Include="Scripting\Pack\SRenderMan.h" />
+    <ClInclude Include="Scripting\ScriptSystem.h" />
+    <ClInclude Include="Scripting\SLua.h" />
+    <ClInclude Include="Scripting\tinystr.h" />
+    <ClInclude Include="Scripting\tinyxml.h" />
+    <ClInclude Include="Timers\FrameCounter.h" />
+    <ClInclude Include="Timers\Limiter.h" />
+    <ClInclude Include="Timers\Timer.h" />
+    <ClInclude Include="User Interface\HUD\Hud.h" />
+    <ClInclude Include="User Interface\HUD\Radar.h" />
+    <ClInclude Include="User Interface\Menus\DeathState.h" />
+    <ClInclude Include="User Interface\Menus\HighScoreEntry.h" />
+    <ClInclude Include="User Interface\Menus\Pause.h" />
+    <ClInclude Include="User Interface\Menus\WinState.h" />
+    <ClInclude Include="WinWrap.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Textures\Back.png" />
+    <Image Include="Assets\Textures\Controls.png" />
+    <Image Include="Assets\Textures\Credits.png" />
+    <Image Include="Assets\Textures\Cursor.png" />
+    <Image Include="Assets\Textures\DialogueBase.png" />
+    <Image Include="Assets\Textures\exit.png" />
+    <Image Include="Assets\Textures\Gamma.png" />
+    <Image Include="Assets\Textures\HighScores.png" />
+    <Image Include="Assets\Textures\LevelSelect.png" />
+    <Image Include="Assets\Textures\MechaButton.png" />
+    <Image Include="Assets\Textures\MechaButtonSelectedA.png" />
+    <Image Include="Assets\Textures\MechaButtonUnselectedA.png" />
+    <Image Include="Assets\Textures\MechaButtonUnselectedB.png" />
+    <Image Include="Assets\Textures\MechaButtonUnselectedC.png" />
+    <Image Include="Assets\Textures\MechaButtonUnselectedD.png" />
+    <Image Include="Assets\Textures\MechaButtonUnselectedE.png" />
+    <Image Include="Assets\Textures\MenuBase.png" />
+    <Image Include="Assets\Textures\MockMenuBase.png" />
+    <Image Include="Assets\Textures\MockMenuBase1.png" />
+    <Image Include="Assets\Textures\MockMenuBase10.png" />
+    <Image Include="Assets\Textures\MockMenuBase11.png" />
+    <Image Include="Assets\Textures\MockMenuBase12.png" />
+    <Image Include="Assets\Textures\MockMenuBase13.png" />
+    <Image Include="Assets\Textures\MockMenuBase14.png" />
+    <Image Include="Assets\Textures\MockMenuBase15.png" />
+    <Image Include="Assets\Textures\MockMenuBase16.png" />
+    <Image Include="Assets\Textures\MockMenuBase17.png" />
+    <Image Include="Assets\Textures\MockMenuBase18.png" />
+    <Image Include="Assets\Textures\MockMenuBase19.png" />
+    <Image Include="Assets\Textures\MockMenuBase2.png" />
+    <Image Include="Assets\Textures\MockMenuBase20.png" />
+    <Image Include="Assets\Textures\MockMenuBase21.png" />
+    <Image Include="Assets\Textures\MockMenuBase22.png" />
+    <Image Include="Assets\Textures\MockMenuBase3.png" />
+    <Image Include="Assets\Textures\MockMenuBase4.png" />
+    <Image Include="Assets\Textures\MockMenuBase5.png" />
+    <Image Include="Assets\Textures\MockMenuBase6.png" />
+    <Image Include="Assets\Textures\MockMenuBase7.png" />
+    <Image Include="Assets\Textures\MockMenuBase8.png" />
+    <Image Include="Assets\Textures\MockMenuBase9.png" />
+    <Image Include="Assets\Textures\MockPause.png" />
+    <Image Include="Assets\Textures\MusicVolume.png" />
+    <Image Include="Assets\Textures\newgame.png" />
+    <Image Include="Assets\Textures\Options.png" />
+    <Image Include="Assets\Textures\Quit.png" />
+    <Image Include="Assets\Textures\redbar.png" />
+    <Image Include="Assets\Textures\Restart.png" />
+    <Image Include="Assets\Textures\resume.png" />
+    <Image Include="Assets\Textures\score.png" />
+    <Image Include="Assets\Textures\Slider.png" />
+    <Image Include="Assets\Textures\SliderRail.png" />
+    <Image Include="Assets\Textures\SoundVolume.png" />
+    <Image Include="Assets\Textures\stars_background.png" />
+    <Image Include="Assets\Textures\time.png" />
+    <Image Include="Assets\Textures\VoiceVolume.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\Audio\TempMenuTrack.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Assets\FX\bloom.fx" />
+    <FxCompile Include="Assets\FX\noise.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Particles\SH_Bullet.lua" />
+    <None Include="Assets\Particles\SH_Charge.lua" />
+    <None Include="Assets\Particles\SH_EnemyBullet.lua" />
+    <None Include="Assets\Particles\SH_Explosion2.lua" />
+    <None Include="Assets\Particles\SH_Hit.lua" />
+    <None Include="Assets\Particles\SH_Mine.lua" />
+    <None Include="Assets\Particles\SH_PlayerHit.lua" />
+    <None Include="Assets\Particles\SH_PlayerThruster.lua" />
+    <None Include="Assets\Particles\SH_Shield.lua" />
+    <None Include="Assets\Particles\SH_Turret.lua" />
+    <None Include="Assets\Scripts\SH_AI.lua" />
+    <None Include="Assets\Scripts\SH_Enemy.lua" />
+    <None Include="Assets\Scripts\SH_Formation.lua" />
+    <None Include="Assets\Scripts\SH_Level1.lua" />
+    <None Include="Assets\Scripts\SH_Level2.lua" />
+    <None Include="Assets\Scripts\SH_Level3.lua" />
+    <None Include="Assets\Scripts\SH_LModel.lua" />
+    <None Include="Assets\Scripts\SH_Player.lua" />
+    <None Include="Assets\Scripts\SH_Poc.lua" />
+    <None Include="Assets\Scripts\SH_Procs.lua" />
+    <None Include="Assets\Scripts\SH_Squad.lua" />
+    <None Include="Assets\Scripts\SH_Talbot.lua" />
+    <None Include="Assets\Scripts\SH_Tutorial.lua" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Mecha-Ziu.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lua\Lua5.1.3.vcxproj">
+      <Project>{ee023b7f-e76f-4e2c-8fda-589b3778c8b5}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

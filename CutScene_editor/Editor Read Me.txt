@@ -1,0 +1,63 @@
+I suggest just fooling around with the editor first to get used to it.
+
+Controls:
+---------
+
+W - Move Camera Offset toward target
+S - Move Camera Offset away from target
+A - Move Camera Offset left of target
+D - Move Camera Offset right of target
+Q - Move Camera Offset down
+E - Move Camera Offset up
+Left Click - Select Object
+
+All camera offset will change depending on the side of the target you are on.
+
+I - Move Selected object forward
+K - Move Selected object backward
+J - Move Selected object left
+L - Move selected object right
+< - Rotate Selected Object left
+> - Rotate Selected Object right
+
+On the NumPad:
+--------------
+4 - Move Camera Look Offset to the left
+6 - Move Camera Look Offset to the Right
+8 - Move Camera Look Offset up
+2 - Move Camera Look Offset down
+
+Animation:
+----------
+[ - Next Frame of Animation for Selected object
+] - Previous Frame of Animation for Selected object
+
+Objects:
+--------
+These are on the number row
+2 - Render Regular Enemy
+3 - Render War Turtle
+4 - Render Talbot
+
+Function Keys:
+--------------
+F2 - Saves Frame Animation - One Frame of the entire scene
+F3 - Saves Animation trigger for the current frame.
+     The Animation saved in the trigger will correspond to the frame the Animation is on.
+     Example: If Mecha Ziu's Animation Frame is 3, the forward animation will be saved in 		the trigger.
+F4 - Saves the dialogue to be cued up on this frame. Pressing F4 will bring up the console
+     window.  In this window you select the numbered dialogue you want. This dialogue will
+     then be cued on the frame it was set on.
+     Example: If you are on frame two of the scene and hit F4 the selected dialouge will
+		display on frame two.
+F8 - When you are satisfied with the scene press F8 to bring up the console window.  Type
+     the name of the file and hit enter all scene info will be saved. 
+
+Playing and Erasing:
+--------------------
+9 - Plays through the built scene
+0 - Resets all position and offset to the first frame
+Backspace - Erases all frames from the vector of Frames
+
+Any Questions or Breaks in the application can be logged here:
+--------------------------------------------------------------

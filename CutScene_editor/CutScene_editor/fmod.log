@@ -1,0 +1,600 @@
+FMOD: SystemI::init                  : FMOD Ex Version: 00041607
+FMOD: SystemI::init                  : maxchannels = 1250, flags = 00000000, extradriverdata = 00000000
+FMOD: SystemI::close                 : 
+FMOD: SystemI::close                 : Remove all user channel groups.
+FMOD: SystemI::close                 : Remove miscllaneous DSP stuff.
+FMOD: SystemI::close                 : done.
+
+FMOD: OutputDSound::init             : Register DLL
+FMOD: OutputDSound::registerDLL      : Detected DIRECTX 9
+FMOD: OutputDSound::init             : Enumerate Drivers
+FMOD: FMOD_Output_DSound_EnumProc    : Enumerating "SoundMAX HD Audio"
+FMOD: OutputDSound::init             : CoInitialize
+FMOD: OutputDSound::init             : DirectSoundCreate8 : mSelectedDriver = 0
+FMOD: OutputDSound::init             : SetCooperativeLevel
+FMOD: OutputDSound::init             : GetCaps
+FMOD: OutputDSound::init             : Bad Caps or emulated driver.  Reverting back to software
+FMOD: OutputDSound::init             : Create Primary Buffer
+FMOD: OutputDSound::init             : Set Primary Buffer Format
+FMOD: OutputDSound::init             : Getting Listener Interface
+FMOD: OutputDSound::init             : Done
+FMOD: SystemI::init                  : Set up software engine
+FMOD: OutputDSound::createSample     : length 24576, channels 2, format 2, mode 0002002a
+FMOD: OutputDSound::createSample     : done
+FMOD: Thread::initThread             : Initializing FMOD mixer thread.  priority 3
+FMOD: Thread::initThread             : - Stacksize 32768.  Stack pointer 00000000 : usesemaphore = 0 : sleeptime = 10
+FMOD: Thread::callback               : * FMOD mixer thread started
+FMOD: Thread::initThread             : done.
+FMOD: SystemI::init                  : Set up emulated output
+FMOD: SystemI::init                  : create the channel pool
+FMOD: SystemI::init                  : Set up streamer
+FMOD: Thread::initThread             : Initializing FMOD stream thread.  priority 2
+FMOD: Thread::initThread             : - Stacksize 49152.  Stack pointer 00000000 : usesemaphore = 0 : sleeptime = 10
+FMOD: Thread::callback               : * FMOD stream thread started
+FMOD: Thread::initThread             : done.
+FMOD: SystemI::init                  : done
+
+FMOD: SystemI::createSoundInternal   : filename = 
+./Assets/Audio/Dialogue/DLG_Mecha_RecievingTransmission.ogg : mode 00000080
+FMOD: SystemI::createSoundInternal   : filename = ./Assets/Audio/Dialogue/DLG_Woden_LetHimThroughZiu.ogg : mode 00000080
+FMOD: SystemI::createSoundInternal   : 19 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (013667C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (013667C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (013667C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [Ogg]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (013667C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (013667C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecOggVorbis::openInternal   : attempting to open as OGG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 19200 : blocksize = 256
+FMOD: SystemI::createSample          : mode 00000082 length 19200 samples, lengthbytes 15476
+FMOD: SystemI::createSample          : subsamples = 1, channels = 1
+FMOD: SystemI::createSample          : subsample 0.  output = 00EC7EE8
+FMOD: SystemI::createSample          : use hw
+FMOD: OutputDSound::createSample     : length 19200, channels 1, format 2, mode 000000aa
+FMOD: OutputDSound::createSample     : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: Thread::initThread             :     Initializing FMOD file thread.  priority 1
+FMOD: Thread::initThread             :     - Stacksize 8192.  Stack pointer 00000000 : usesemaphore = 1 : sleeptime = 0
+FMOD: Thread::callback               :     * FMOD file thread started
+FMOD: Thread::initThread             :     done.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY. 188935 bytes used
+
+FMOD: SystemI::createSoundInternal   : filename = ./Assets/Audio/Dialogue/DLG_Mecha_Done.ogg : mode 00000080
+FMOD: SystemI::createSoundInternal   : 19 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01382D48)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01382D48)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (01382D48)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [Ogg]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01382D48)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (01382D48)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecOggVorbis::openInternal   : attempting to open as OGG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 19200 : blocksize = 256
+FMOD: SystemI::createSample          : mode 00000082 length 19200 samples, lengthbytes 12625
+FMOD: SystemI::createSample          : subsamples = 1, channels = 1
+FMOD: SystemI::createSample          : subsample 0.  output = 00EC7EE8
+FMOD: SystemI::createSample          : use hw
+FMOD: OutputDSound::createSample     : length 19200, channels 1, format 2, mode 000000aa
+FMOD: OutputDSound::createSample     : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY. 188128 bytes used
+
+FMOD: SystemI::createSoundInternal   : filename = ./Assets/Audio/Dialogue/DLG_Admiral_Congratulations.ogg : mode 00000080
+FMOD: SystemI::createSoundInternal   : 19 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (013C4CC8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (013C4CC8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (013C4CC8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [Ogg]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (013C4CC8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (013C4CC8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecOggVorbis::openInternal   : attempting to open as OGG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 19200 : blocksize = 256
+FMOD: SystemI::createSample          : mode 00000082 length 19200 samples, lengthbytes 70856
+FMOD: SystemI::createSample          : subsamples = 1, channels = 1
+FMOD: SystemI::createSample          : subsample 0.  output = 00EC7EE8
+FMOD: SystemI::createSample          : use hw
+FMOD: OutputDSound::createSample     : length 19200, channels 1, format 2, mode 000000aa
+FMOD: OutputDSound::createSample     : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY. 183239 bytes used
+
+FMOD: SystemI::createSoundInternal   : filename = ./Assets/Audio/Dialogue/DLG_Woden_DoesThisMean.ogg : mode 00000080
+FMOD: SystemI::createSoundInternal   : 19 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (031F05C8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (031F05C8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (031F05C8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [Ogg]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (031F05C8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (031F05C8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecOggVorbis::openInternal   : attempting to open as OGG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 19200 : blocksize = 256
+FMOD: SystemI::createSample          : mode 00000082 length 19200 samples, lengthbytes 47787
+FMOD: SystemI::createSample          : subsamples = 1, channels = 1
+FMOD: SystemI::createSample          : subsample 0.  output = 00EC7EE8
+FMOD: SystemI::createSample          : use hw
+FMOD: OutputDSound::createSample     : length 19200, channels 1, format 2, mode 000000aa
+FMOD: OutputDSound::createSample     : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY. 187141 bytes used
+
+FMOD: SystemI::createSoundInternal   : filename = ./Assets/Audio/Dialogue/DLG_Admiral_ISuppose.ogg : mode 00000080
+FMOD: SystemI::createSoundInternal   : 19 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (03220950)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (03220950)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (03220950)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [Ogg]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (03220950)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (03220950)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecOggVorbis::openInternal   : attempting to open as OGG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 19200 : blocksize = 256
+FMOD: SystemI::createSample          : mode 00000082 length 19200 samples, lengthbytes 46805
+FMOD: SystemI::createSample          : subsamples = 1, channels = 1
+FMOD: SystemI::createSample          : subsample 0.  output = 00EC7EE8
+FMOD: SystemI::createSample          : use hw
+FMOD: OutputDSound::createSample     : length 19200, channels 1, format 2, mode 000000aa
+FMOD: OutputDSound::createSample     : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY. 182996 bytes used
+
+FMOD: SystemI::createSoundInternal   : filename = ./Assets/Audio/Dialogue/DLG_Woden_WasntAskingAnything.ogg : mode 00000080
+FMOD: SystemI::createSoundInternal   : 19 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (03251DE8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (03251DE8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (03251DE8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [Ogg]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (03251DE8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (03251DE8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecOggVorbis::openInternal   : attempting to open as OGG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 19200 : blocksize = 256
+FMOD: SystemI::createSample          : mode 00000082 length 19200 samples, lengthbytes 72840
+FMOD: SystemI::createSample          : subsamples = 1, channels = 1
+FMOD: SystemI::createSample          : subsample 0.  output = 00EC7EE8
+FMOD: SystemI::createSample          : use hw
+FMOD: OutputDSound::createSample     : length 19200, channels 1, format 2, mode 000000aa
+FMOD: OutputDSound::createSample     : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY. 183299 bytes used
+
+FMOD: SystemI::createSoundInternal   : filename = ./Assets/Audio/Dialogue/DLG_Woden_SetACourse.ogg : mode 00000080
+FMOD: SystemI::createSoundInternal   : 19 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (03285530)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (03285530)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (03285530)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [Ogg]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (03285530)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (03285530)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecOggVorbis::openInternal   : attempting to open as OGG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 19200 : blocksize = 256
+FMOD: SystemI::createSample          : mode 00000082 length 19200 samples, lengthbytes 32794
+FMOD: SystemI::createSample          : subsamples = 1, channels = 1
+FMOD: SystemI::createSample          : subsample 0.  output = 00EC7EE8
+FMOD: SystemI::createSample          : use hw
+FMOD: OutputDSound::createSample     : length 19200, channels 1, format 2, mode 000000aa
+FMOD: OutputDSound::createSample     : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY. 183144 bytes used
+
+FMOD: SystemI::createSoundInternal   : filename = ./Assets/Audio/Dialogue/DLG_Mecha_CourseSet.ogg : mode 00000080
+FMOD: SystemI::createSoundInternal   : 19 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (03253928)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (03253928)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (03253928)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [Ogg]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (03253928)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (03253928)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecOggVorbis::openInternal   : attempting to open as OGG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 19200 : blocksize = 256
+FMOD: SystemI::createSample          : mode 00000082 length 19200 samples, lengthbytes 75266
+FMOD: SystemI::createSample          : subsamples = 1, channels = 1
+FMOD: SystemI::createSample          : subsample 0.  output = 00EC7EE8
+FMOD: SystemI::createSample          : use hw
+FMOD: OutputDSound::createSample     : length 19200, channels 1, format 2, mode 000000aa
+FMOD: OutputDSound::createSample     : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY. 193286 bytes used
+
+FMOD: SystemI::createSoundInternal   : filename = ./Assets/Audio/Dialogue/DLG_Woden_OnlyTheBeginning.ogg : mode 00000080
+FMOD: SystemI::createSoundInternal   : 19 codecs found.  Scan all until one succeeds
+FMOD: CodecTag::openInternal         : attempting to open ID3 or ASF tags..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (032DF120)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecCDDA::openInternal        : attempting to open as CDDA..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (032DF120)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::openInternal         : attempting to open as FSB..
+FMOD: CodecFSB::openInternal         : Header check failed.  Not an FSB
+FMOD: Codec::release                 : 
+FMOD: CodecFSB::closeInternal        : 
+FMOD: CodecFSB::closeInternal        : done
+FMOD: Plugin::release                : (032DF120)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecVAG::openInternal         : attempting to open as VAG..
+FMOD: CodecVAG::openInternal         : 'VAG' ID check failed [Ogg]
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (032DF120)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecWav::openInternal         : attempting to open as WAV..
+FMOD: Codec::release                 : 
+FMOD: Plugin::release                : (032DF120)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: CodecOggVorbis::openInternal   : attempting to open as OGG..
+FMOD: SystemI::createSoundInternal   : Format has 0 subsounds.
+FMOD: SystemI::createSoundInternal   : Create as FMOD_CREATESTREAM
+FMOD: System::createSoundInternal    : decode buffersize = 19200 : blocksize = 256
+FMOD: SystemI::createSample          : mode 00000082 length 19200 samples, lengthbytes 23874
+FMOD: SystemI::createSample          : subsamples = 1, channels = 1
+FMOD: SystemI::createSample          : subsample 0.  output = 00EC7EE8
+FMOD: SystemI::createSample          : use hw
+FMOD: OutputDSound::createSample     : length 19200, channels 1, format 2, mode 000000aa
+FMOD: OutputDSound::createSample     : done
+FMOD: SystemI::createSample          : done
+FMOD: System::createSoundInternal    : Seek stream to start
+FMOD: System::createSoundInternal    : flush stream buffer
+FMOD: System::createSoundInternal    : flush successful.
+FMOD: System::createSoundInternal    : switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+FMOD: SystemI::createSoundInternal   : No name found in file, use filename.
+FMOD: SystemI::createSoundInternal   : done.  OpenState now = FMOD_OPENSTATE_READY. 183252 bytes used
+
+FMOD: SoundI::release                : DLG_Woden_LetHimThroughZiu.ogg (0132B970)
+FMOD: SoundI::release                : remove stream samples. (0132B970)
+FMOD: SoundI::release                :      (0132BC18)
+FMOD: SoundI::release                :     free this. (0132BC18)
+FMOD: SoundI::release                :     done (0132BC18)
+FMOD: SoundI::release                : release codec. (0132B970)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 01328DF8)
+FMOD: Plugin::release                : (013667C0)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: SoundI::release                : free this. (0132B970)
+FMOD: SoundI::release                : done (0132B970)
+FMOD: SoundI::release                : DLG_Mecha_Done.ogg (013A8D28)
+FMOD: SoundI::release                : remove stream samples. (013A8D28)
+FMOD: SoundI::release                :      (013A8FD0)
+FMOD: SoundI::release                :     free this. (013A8FD0)
+FMOD: SoundI::release                :     done (013A8FD0)
+FMOD: SoundI::release                : release codec. (013A8D28)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 01382B88)
+FMOD: Plugin::release                : (01382D48)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: SoundI::release                : free this. (013A8D28)
+FMOD: SoundI::release                : done (013A8D28)
+FMOD: SoundI::release                : DLG_Admiral_Congratulations.ogg (013CF650)
+FMOD: SoundI::release                : remove stream samples. (013CF650)
+FMOD: SoundI::release                :      (013CF8F8)
+FMOD: SoundI::release                :     free this. (013CF8F8)
+FMOD: SoundI::release                :     done (013CF8F8)
+FMOD: SoundI::release                : release codec. (013CF650)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 013C4B08)
+FMOD: Plugin::release                : (031C8080)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: SoundI::release                : free this. (013CF650)
+FMOD: SoundI::release                : done (013CF650)
+FMOD: SoundI::release                : DLG_Woden_DoesThisMean.ogg (031FF848)
+FMOD: SoundI::release                : remove stream samples. (031FF848)
+FMOD: SoundI::release                :      (031FFAF0)
+FMOD: SoundI::release                :     free this. (031FFAF0)
+FMOD: SoundI::release                :     done (031FFAF0)
+FMOD: SoundI::release                : release codec. (031FF848)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 031F0408)
+FMOD: Plugin::release                : (031F05C8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: SoundI::release                : free this. (031FF848)
+FMOD: SoundI::release                : done (031FF848)
+FMOD: SoundI::release                : DLG_Admiral_ISuppose.ogg (0322EBA8)
+FMOD: SoundI::release                : remove stream samples. (0322EBA8)
+FMOD: SoundI::release                :      (0322EE50)
+FMOD: SoundI::release                :     free this. (0322EE50)
+FMOD: SoundI::release                :     done (0322EE50)
+FMOD: SoundI::release                : release codec. (0322EBA8)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 03220790)
+FMOD: Plugin::release                : (03220950)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: SoundI::release                : free this. (0322EBA8)
+FMOD: SoundI::release                : done (0322EBA8)
+FMOD: SoundI::release                : DLG_Woden_WasntAskingAnything.ogg (03260038)
+FMOD: SoundI::release                : remove stream samples. (03260038)
+FMOD: SoundI::release                :      (032602E0)
+FMOD: SoundI::release                :     free this. (032602E0)
+FMOD: SoundI::release                :     done (032602E0)
+FMOD: SoundI::release                : release codec. (03260038)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 03251C28)
+FMOD: Plugin::release                : (03251DE8)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: SoundI::release                : free this. (03260038)
+FMOD: SoundI::release                : done (03260038)
+FMOD: SoundI::release                : DLG_Woden_SetACourse.ogg (03291608)
+FMOD: SoundI::release                : remove stream samples. (03291608)
+FMOD: SoundI::release                :      (032918B0)
+FMOD: SoundI::release                :     free this. (032918B0)
+FMOD: SoundI::release                :     done (032918B0)
+FMOD: SoundI::release                : release codec. (03291608)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 03285370)
+FMOD: Plugin::release                : (03285530)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: SoundI::release                : free this. (03291608)
+FMOD: SoundI::release                : done (03291608)
+FMOD: SoundI::release                : DLG_Mecha_CourseSet.ogg (032C3170)
+FMOD: SoundI::release                : remove stream samples. (032C3170)
+FMOD: SoundI::release                :      (032C3418)
+FMOD: SoundI::release                :     free this. (032C3418)
+FMOD: SoundI::release                :     done (032C3418)
+FMOD: SoundI::release                : release codec. (032C3170)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 03253768)
+FMOD: Plugin::release                : (03253928)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: SoundI::release                : free this. (032C3170)
+FMOD: SoundI::release                : done (032C3170)
+FMOD: SoundI::release                : DLG_Woden_OnlyTheBeginning.ogg (032F68C8)
+FMOD: SoundI::release                : remove stream samples. (032F68C8)
+FMOD: SoundI::release                :      (032F6B70)
+FMOD: SoundI::release                :     free this. (032F6B70)
+FMOD: SoundI::release                :     done (032F6B70)
+FMOD: SoundI::release                : release codec. (032F68C8)
+FMOD: Codec::release                 : 
+FMOD: Codec::release                 : Close file (mFile = 032DEF60)
+FMOD: Plugin::release                : (03253E30)
+FMOD: Plugin::release                : done
+FMOD: Codec::release                 : 
+FMOD: SoundI::release                : free this. (032F68C8)
+FMOD: SoundI::release                : done (032F68C8)

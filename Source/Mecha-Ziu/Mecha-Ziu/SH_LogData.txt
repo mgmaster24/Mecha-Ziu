@@ -1,0 +1,9 @@
+File : z:\fire sail games\seven head\source\mecha-ziu\mecha-ziu\clogger.cpp
+Line :28
+Log : Mech-Ziu Inited
+File : z:\fire sail games\seven head\source\mecha-ziu\mecha-ziu\clogger.cpp
+Line :28
+Log : Menu : Exiting Game
+File : z:\fire sail games\seven head\source\mecha-ziu\mecha-ziu\clogger.cpp
+Line :28
+Log : Mech-Ziu ShutDown

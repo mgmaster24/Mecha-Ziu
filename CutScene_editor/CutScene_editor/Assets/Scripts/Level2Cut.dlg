@@ -1,0 +1,19 @@
+4
+./Assets/Audio/Dialogue/DLG_Woden_AnalyzeTheWarTurtle.ogg;
+1
+   Wodan: "Analyze the War Turtle, Ziu.";
+./Assets/Audio/Dialogue/DLG_Mecha_TurretsImobile1.ogg;
+5
+   Mecha-Ziu: "Turrets: immobile.;
+   Cannon: non-operational.;
+   Propulsion: operating at 100 percent.;
+   I suggest destroying the engines if your;
+   goal is to destroy the ship entirely.";
+./Assets/Audio/Dialogue/DLG_Mecha_TurretsImobile2.ogg;
+3
+   Mecha-Ziu: "Severing the engines from the ;
+   transport will create a chain reaction, ;
+   causing the War Turtle to explode.";
+./Assets/Audio/Dialogue/DLG_Woden_LetsGoAfterIt.ogg;
+1
+   Wodan: "Lets go after it.";

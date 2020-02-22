@@ -1,0 +1,82 @@
+18
+./Assets/Audio/Dialogue/DLG_Mecha_HackingComm.ogg;
+2
+   Mecha-Ziu: "I believe someone is hacking into ;
+   our communications system, Wodan.";
+./Assets/Audio/Dialogue/DLG_Woden_IdentifySource.ogg;
+1
+   Wodan: "Can you identify the source?";
+./Assets/Audio/Dialogue/DLG_Mecha_NegativeSignal.ogg;
+3
+   Mecha-Ziu: "Negative, the signal has top; 
+   level security encryption, it appears to be;
+   terrestrial in origin.";
+./Assets/Audio/Dialogue/DLG_Woden_CommunicationsLink.ogg;
+2
+   Wodan: "Open a communications link with the;
+   hacker.";
+./Assets/Audio/Dialogue/DLG_Mecha_LinkOperational.ogg;
+1
+   Mecha-Ziu: "Link operational.";
+./Assets/Audio/Dialogue/DLG_Woden_AdmiralUnderBoot.ogg;
+2
+   Wodan: "Admiral, if I wanted to still be under ;
+   your boot, I wouldn't have diappeared.";
+./Assets/Audio/Dialogue/DLG_Admiral_AlwaysWereLoneWolf.ogg;
+2
+   Admiral: "You always were a lone wolf, which;
+   is why I'm perplexed.";
+./Assets/Audio/Dialogue/DLG_Woden_AdmiralToBeConfused.ogg;
+3
+   Wodan: "Admiral, I assure you, I dont need to;
+   come out of retirement for you to be ;
+   confused.";
+./Assets/Audio/Dialogue/DLG_Admiral_WhateverOurDifferencesAre.ogg;
+4
+   Admiral: "Whatever our differences Raido,; 
+   we need to put them aside for now. The; 
+   Paladins of Radiance are rapidly approaching;
+   Earth's orbit, as I'm sure you're aware. ;
+./Assets/Audio/Dialogue/DLG_Woden_StrollThroughAtmosphere.ogg;
+3
+   Wodan: "Actually, I just decided I would go;
+   for a Sunday stroll through the ;
+   atmosphere, Admiral.";
+./Assets/Audio/Dialogue/DLG_Admiral_GarudasPersonalSpaceship1.ogg;
+5
+   Admiral: "Garuda's personal spaceship, the;
+   War Turtle, is among the invading forces. ;
+   It is equipped with an impenetrable shield;
+   that will only go down when it charges the;
+   cannon on its back.";
+./Assets/Audio/Dialogue/DLG_Admiral_GarudasPersonalSpaceship2.ogg;
+4
+   Admiral: "I don't need to tell you that we're;
+   severely outnumbered and counting on you;
+   to honor the oath you took when you joined ;
+   the service... Do I?";
+./Assets/Audio/Dialogue/DLG_Woden_IfYouThought.ogg;
+3
+   Wodan: "If you thought I would just let ;
+   these crusading psychopaths raze our ;
+   planet, you're sadly mistaken.";
+./Assets/Audio/Dialogue/DLG_Admiral_GoodToHearRaido.ogg;
+2
+   Admiral: "Good to hear, Raido. We'll be in;
+   touch.";
+
+./Assets/Audio/Dialogue/DLG_Mecha_IThoughtDefend.ogg;
+2
+   Mecha-Ziu: "I thought we were going to ;
+   defend the Earth, Wodan?";
+./Assets/Audio/Dialogue/DLG_Woden_WasntSeriousAboutStroll.ogg;
+2
+   Wodan: "We are Ziu. I wasn't serious about ;
+   the stroll.";
+./Assets/Audio/Dialogue/DLG_Mecha_Understood.ogg;
+2
+   Mecha-Ziu: "Understood, increasing ;
+   thruster speed now.";
+./Assets/Audio/Dialogue/DLG_Woden_ItchinForFight.ogg;
+1
+   Wodan: "Good. I've been itching for a fight.";

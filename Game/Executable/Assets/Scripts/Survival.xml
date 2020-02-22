@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<HighTable>
+    <Kills Name="Sarah" Kills="3000" />
+    <Kills Name="Ethan" Kills="25" />
+    <Kills Name="Suzie" Kills="20" />
+    <Kills Name="James" Kills="15" />
+    <Kills Name="Bill" Kills="10" />
+    <Kills Name="Sarah" Kills="8" />
+    <Kills Name="Lauren" Kills="6" />
+    <Kills Name="Scot" Kills="5" />
+    <Kills Name="Clyde" Kills="4" />
+    <Kills Name="Kristen" Kills="3" />
+</HighTable>
